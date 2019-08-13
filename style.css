@@ -1,0 +1,114 @@
+.homeBar{
+    display:flex;
+    height: 33px;
+    width: 97vw;
+    border-top: 3px solid black;
+     border-bottom: 3px solid black;
+    /* moves everything to the left side of the screen */
+    justify-content: flex-end;
+    /* puts space in between each word */
+    justify-content: space-around;
+    font-weight: bold;
+    padding-top: 15px;
+    background-color: gray;
+    opacity: 0.5;
+    padding-left:-30px;
+  }
+  #stockImg{
+    height: 350px;
+    width: 97vw;
+    border: 3px solid red;
+    /* padding-top: 250px; */
+  }
+  #home{
+    padding-left: 500px;
+    opacity: 1;
+    text-decoration: none;
+  }
+  #missionState{
+    justify-content: center;
+    border: 3px solid black;
+    width:550px;
+    height:150px;
+  }
+  #missionBox{
+    display: flex;
+    /* flex-direction:column; */
+    justify-content: center;
+  
+  }
+  
+  #aboutUsBox{
+    display:flex;
+    justify-content:center;
+  }
+  #aboutUsText{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    border:3px solid black;
+    height: 450px;
+    width: 75vw;
+  }
+  
+  #groupPic{
+    border: 3px solid red;
+    width:350px;
+    height: 150px;
+  }
+  #aboutUsBox p{
+    font-size:18px;
+  }
+  footer{
+    background-color: gray;
+    width:97vw;
+    height: 30px;
+  }
+  #logo{
+    font-size:24px;
+  }
+  .homePage{
+    display:block;
+  }
+  
+  /* Search Page CSS */
+  #search{
+    display:none;
+    background-color:slategray;
+    width: 97vw;
+    height:97vw;
+  }
+  .results{
+    display:flex;
+    flex-direction: row;
+    padding-left: 50px;
+  }
+  #campLogo{
+    display:flex;
+    border: 3px solid red;
+    height:150px;
+    width:150px;
+  }
+  #campDescription{
+    display:flex;
+    border:3px solid blue;
+    height:150px;
+    width:75vw;
+  }
+  #tag{
+    display:flex;
+    flex-direction: row;
+  }
+  #textBar{
+    display:flex;
+    justify-content:flex-end;
+    padding-right: 70px;
+  }
+  #campLogo img{
+    height: 150px;
+    width: 150px;
+  }
+  #stockImg img{
+    height: 350px;
+    width: 97vw;
+  }
