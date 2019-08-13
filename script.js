@@ -1,9 +1,10 @@
-
 //This code is only for demp presentations to switch divs before it is set up
 let presentSearch = document.getElementById("presentSearch");
-let search = document.getElementById("search");
-let home = document.getElementById("homePage");
 let presentHome = document.getElementById("presentHome");
+let searchRef = document.getElementById("search");
+let homeRef = document.getElementById("homePage");
+let topBarHome = document.getElementById("home")
+let topBarSearch = document.getElementById("searchButton")
 
 //making presentSearch switch from the home div to the search div
 presentSearch.onclick = function(event){
