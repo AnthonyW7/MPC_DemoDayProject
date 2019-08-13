@@ -6,16 +6,16 @@ let homeRef = document.getElementById("homePage");
 let topBarHome = document.getElementById("home")
 let topBarSearch = document.getElementById("searchButton")
 
-//making presentSearch switch from the home div to the search div
-presentSearch.onclick = function(event){
+//when the top search div is pressed it shows the search page
+topBarSearch.onclick = function(event){
   event.preventDefault();
-  home.style.display = "none";
-  search.style.display = "block";
+  homeRef.style.display = "none";
+  searchRef.style.display = "block";
 }
 
-//making presentHome switch from the search div to the home div
-presentHome.onclick = function(event){
+//when the top home div is pressed it switches to the home div
+topBarHome.onclick = function(event){
   event.preventDefault();
-  home.style.display = "block";
-  search.style.display = "none";
+  homeRef.style.display = "block";
+  searchRef.style.display = "none";
 }
