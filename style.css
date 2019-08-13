@@ -2,23 +2,45 @@
     display:flex;
     height: 33px;
     width: 97vw;
-    border-top: 3px solid black;
-     border-bottom: 3px solid black;
+    border-top: 3px solid #c60021;
+    border-bottom: 3px solid #c60021;
     /* moves everything to the left side of the screen */
     justify-content: flex-end;
     /* puts space in between each word */
     justify-content: space-around;
     font-weight: bold;
     padding-top: 15px;
-    background-color: gray;
+    background-color: #E3E3E3;
     opacity: 0.5;
     padding-left:-30px;
+  }
+  #logo{
+    color: #c60021;
   }
   #stockImg{
     height: 350px;
     width: 97vw;
-    border: 3px solid red;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* border: 3px solid red; */
     /* padding-top: 250px; */
+  } 
+  #stockImg img{
+    height: 350px;
+    width: 97vw;
+    opacity: 0.6;
+  }
+  #stockImg img:hover {
+   -webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+    filter: blur(4px);
+    transition: 0.2s;
+ }
+  #stockText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    color: #c60021;
   }
   #home{
     padding-left: 500px;
@@ -27,9 +49,10 @@
   }
   #missionState{
     justify-content: center;
-    border: 3px solid black;
     width:550px;
     height:150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #F6F6F8;
   }
   #missionBox{
     display: flex;
@@ -44,11 +67,13 @@
   }
   #aboutUsText{
     display:flex;
+    background-color: #F6F6F8;
     align-items: center;
     flex-direction: column;
-    border:3px solid black;
     height: 450px;
     width: 75vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 10px 10px 5px grey; */
   }
   
   #groupPic{
@@ -80,6 +105,7 @@
     width: 97vw;
     height:97%;
   }
+  
   /*search box styles*/
   .results{
     display:flex;
@@ -114,10 +140,7 @@
     height: 150px;
     width: 150px;
   }
-  #stockImg img{
-    height: 350px;
-    width: 97vw;
-  }
+ 
   h3{
    
     height:60px;
@@ -127,16 +150,22 @@
     display:flex;
     flex-direction:column;
   }
+  stockImg img{
+    opacity: 0.5;
+  }
 
-  /* #price{
+.btn{
+  border: 1px solid #c60021;
+  background:none;
+  color:#c60021;
+  /* font-family:"montserrat"; */
+  cursor:pointer;
+  transition: 0.8s;
+  font-size:20px;
+  position: relative;
+  overflow: hidden;
+}
 
-    border:3px solid black;
-    height: 30px;
-    width: 60px;
-  } */
-  /* .results{
-    display:flex;
-        border:3px solid blue;
-        height:150px;
-        width:75vw;
-  }  */  
+.homeButton:hover,.searchSwitch:hover{
+  color:#fff
+}
