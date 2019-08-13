@@ -35,45 +35,25 @@ let programLinksArray = [
 ];
 let programDescriptionsArray = [
 'All Star Code:All Star Code is a nonprofit computer science education organization focused on motivated Black and Latino young men. Few organizations prepare this underserved group for careers in the innovation economy.Our ultimate goal is to close the wealth, income and opportunity gaps.' ,
-​
 'CLAE : a free, inspiring summer program designed for the best and brightest college-bound students from high schools across the country. The Carleton Liberal Arts Experience (CLAE) supports 52 high school students who have just completed their sophomore year to come to Carleton for a one-week, academic summer program, all expenses paid by Carleton. CLAE introduces students to the strengths of a liberal arts education through an array of courses in science, art, social sciences, and technology',
-​
 'Black Girls Code: Black Girls CODE introduces computer coding lessons to young girls from underrepresented communities in programming languages such as Scratch or Ruby on Rails. Black Girls CODE has set out to prove to the world that girls of every color have the skills to become the programmers of tomorrow.',
-​
 'Discovery Day: Central State University Extension’s Discovery Day Camp is an engaging youth summer program for rising 3rd-5thgrade students. Each day will focus on a different theme and explore science, technology, engineering, agriculture, and mathematics (STEM) through experiential learning. Students will be enrolled on a first-come, first served basis once all application material is received',
-​
 'Black Art theater: The Black Arts Institute offers both a one-week winter and five-week summer comprehensive exploration of the history of the contemporary Black theater tradition, led by a world-class faculty including Stephen McKinley Henderson, Ruben Santiago-Hudson, Phylicia Rashad, Michele Shay and Sonia Sanchez.', 
-​
 'Spelman: During the four-week program, students attend lectures and engage in discussions at Spelman, in the Atlanta University Center, and at the High Museum of Art while making site visits to other locations in Atlanta and the region. The young women will reside in dormitory housing at Spelman College while the young men will reside in dormitory housing at Morehouse College.',
-​
 'Choplet: In our Kids Pottery Ceramic Camp, kids are invited to join a professional ceramic studio and explore the numerous possibilities clay has to offer, such as wheel throwing, hand building, sculpting, tile/mosaic making, decorating and glazing. At our facility, students have the satisfaction of creating an artwork from scratch and bringing it to its final completion. Every day participants are encouraged to explore their creativity and begin a new project led by an accomplished artist',
-​
 'Girls Who code: Our Summer Immersion Program is a free​ ​7-week introductory computer science ​program ​for​ ​10th-11th grade girls going into their junior or senior year of high school. During the 7-week program, participants​ ​learn​ about ​computer science,​ ​gain​ ​exposure​ ​to​ ​tech​ ​jobs,​ ​and​ ​join​ ​​a sisterhood​ ​of​ ​girls​ ​who​ ​are​ ​using​ ​computer​ ​science​ ​to​ ​become​ ​change-makers.',
-​
 'Black girls sew: Black Girls Sew™ offers classes, workshops and summer camps to teach sewing and design skills to students of all ages, races and levels of experience. Sew Green™ is a series of eco-friendly workshops for adults. The Sew Green Fashion Camp™ is a summer camp for children ages 7 to 16 with an interest in fashion and sewing but little to no exposure to the industry',
-​
 'MITES: Minority Introduction to Engineering and Science (MITES) is a rigorous six-week residential academic enrichment program for rising high school seniors. This national program stresses the value and reward of pursuing advanced technical degrees and careers while developing the skills necessary to achieve success in science and engineering.',
-​
 'Kettering 1: This camp exposes students to the field of computer engineering by using technology that is currently being used for developing intelligent systems. They learn how consumer electronics, automobiles and robots are made smart by using microcontrollers embedded in these products. Students design, build and program entry-level microcontroller-based applications, such as robots, and learn how to wire sensors to the processor and implement programs to make their robot intelligent.',
-​
 'NSBE: The Training Institute offers training for current and prospective business owners. The primary focus is on creating technical companies; however, the program is open and valuable for all. The training is offered via webinar, Regional and Annual Conferences and via local activities.',
-​
 'Smash: SMASH Academy, our flagship program, is a three-year STEM- intensive residential college prep program that empowers students to deepen their talents and pursue STEM careers. Every summer, scholars are immersed in tuition-free studies at leading universities throughout the country.  During the academic year, scholars participate in monthly programming.',
-​
 'iUrbanTeen: At each STEM Summit over 150 attendees will learn about what’s new in the amazing world of technology, how technology affects our daily lives, and they can find themselves in a career track.  Our summit workshops are hands-on and interactive learning experiences' ,
-​
 'MESA: The program provides teacher training, academic tutoring, internships, field trips and pre-college pathways into STEM college programs',
-​
 'SAMS: The Summer Academy for Math and Science (SAMS) is a six-week residential summer program at Carnegie Mellon University for minoritized student groups interested in pursuing STEM-related undergraduate majors. The program offers two distinct cohorts for rising seniors and a smaller cohort for rising juniors. Admitted students engage in a rigorous curriculum taught by our world renowned faculty and staff who are deeply committed to student success. Selected students have an opportunity to choose from two different academic tracks; Science and Engineering, and Computer Science.',
-​
 'ASU:For two weeks every summer, the Walter Cronkite School of Journalism and Mass Communication brings top-performing high school students to ASU for two weeks of intensive, hands-on experiences in broadcast and digital journalism.',
-​
 'BFL Youth:Members will experience and participate in an intensive eight weeks of African and African-American students, Dance and Drama, field trips, arts and crafts, sports, swimming and much more',
-​
 'Kettering 2: This includes a variety of camps that focuses on many scientific topics such as computer engineering and robotics in preparation for college.',
-​
 'Sisters of Nia:With an Afrocentric foundation, the camp addresses self-esteem, self-confidence, self-control, self-expression, cultural awareness, health & exercise, and proper diet via the performing arts',
-​
 'Heritage:Children ages 7-12 participate in one-week sessions of the Tubman Heritage Summer Camps that features arts and crafts activities, character building, physical fitness, math & literacy exercises, African American history and creative writing'
 ];
 
