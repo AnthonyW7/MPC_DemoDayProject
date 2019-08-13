@@ -1,3 +1,5 @@
+
+//This code is only for demp presentations to switch divs before it is set up
 //getting references
 let presentSearch = document.getElementById("presentSearch");
 let presentHome = document.getElementById("presentHome");
