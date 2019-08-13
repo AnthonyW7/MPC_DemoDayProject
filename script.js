@@ -1,10 +1,17 @@
-//This code is only for demp presentations to switch divs before it is set up
+//getting references
 let presentSearch = document.getElementById("presentSearch");
 let presentHome = document.getElementById("presentHome");
 let searchRef = document.getElementById("search");
 let homeRef = document.getElementById("homePage");
-let topBarHome = document.getElementById("home")
-let topBarSearch = document.getElementById("searchButton")
+let topBarHome = document.getElementById("home");
+let topBarSearch = document.getElementById("searchButton");
+let searchBarRef = document.getElementById("searchBar");
+
+//assigning variables for the arrays where we access the information from
+let titleArray = [];
+let linkArray = [];
+let picArray = [];
+let descriptionArray = [];
 
 //when the top search div is pressed it shows the search page
 topBarSearch.onclick = function(event){
@@ -19,3 +26,4 @@ topBarHome.onclick = function(event){
   homeRef.style.display = "block";
   searchRef.style.display = "none";
 }
+
