@@ -112,14 +112,17 @@
     height: 350px;
     width: 97vw;
   }
-  
+  h3{
+    border:3px solid black;
+    height:60px;
+    width:100px;
+  }
   #tag{
     display:flex;
     flex-direction:column;
   }
   #price{
-    /* display:flex; */
-    align-items:flex-end;
+
     border:3px solid black;
     height: 30px;
     width: 60px;
