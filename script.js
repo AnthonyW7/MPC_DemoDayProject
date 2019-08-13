@@ -6,6 +6,9 @@ let homeRef = document.getElementById("homePage");
 let topBarHome = document.getElementById("home");
 let topBarSearch = document.getElementById("searchButton");
 let searchBarRef = document.getElementById("searchBar");
+let bodyRef = document.querySelector('body');
+let resultsDivRef = document.getElementsByClassName('results');
+let searchDivRef = document.getElementById('search');
 console.log("help");
 
 //assigning variables for the arrays where we access the information from
@@ -74,3 +77,21 @@ topBarHome.onclick = function(event){
   searchRef.style.display = "none";
 }
 
+for ( i =0; i < programNamesArray.length; i ++){
+  let bigDiv = document.createElement('div');
+  bigDiv.style.display = 'flex';
+  let img = document.createElement('img');
+  img.src = 'images/' + programPicsArray[i];
+  img.style.height = ('100px');
+  bigDiv.appendChild(img);
+  let rightDiv = document.createElement('div');
+  rightDiv.style.flexDirection = 'column';
+  let titlePart = document.createElement('h3');
+  titlePart.innerHTML = programNamesArray[i]
+  rightDiv.appendChild(titlePart)
+  let infoPart = document.createElement('p');
+  infoPart.innerHTML = programDescriptionsArray[i];
+  rightDiv.appendChild(infoPart);
+  bigDiv.appendChild(rightDiv);
+  searchDivRef.appendChild(bigDiv);
+}
