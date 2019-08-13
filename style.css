@@ -1,7 +1,11 @@
+body {
+  width: 100vw;
+  margin: 0;
+}
 .homeBar{
     display:flex;
     height: 33px;
-    width: 97vw;
+    width: 100vw;
     border-top: 3px solid black;
      border-bottom: 3px solid black;
     /* moves everything to the left side of the screen */
@@ -13,12 +17,6 @@
     background-color: gray;
     opacity: 0.5;
     padding-left:-30px;
-  }
-  #stockImg{
-    height: 350px;
-    width: 97vw;
-    border: 3px solid red;
-    /* padding-top: 250px; */
   }
   #home{
     padding-left: 500px;
@@ -52,17 +50,18 @@
   }
   
   #groupPic{
-    border: 3px solid red;
+    border: 3px solid black;
     width:350px;
     height: 150px;
   }
   #aboutUsBox p{
     font-size:18px;
-  
+    padding: 25px;
+    
   }
   footer{
     background-color: gray;
-    width:97vw;
+    width:100vw;
     height: 30px;
     display:none;
   }
@@ -77,7 +76,7 @@
   #search{
     display:none;
     background-color:#E3E3E3;
-    width: 97vw;
+    width: 100vw;
     height:97%;
   }
   /*search box styles*/
@@ -100,7 +99,7 @@
     flex-direction: column;
     padding-left: 15px;
   }
-
+  
   #tag{
     display:flex;
     flex-direction: row;
@@ -114,10 +113,21 @@
     height: 150px;
     width: 150px;
   }
-  #stockImg img{
-    height: 350px;
-    width: 97vw;
+
+  #stockImg{
+    display: flex;
+    justify-content: center;
+    /* height: 350px;
+    width: 100vw; */
+    background-color: black;
+    border: 3px solid red;
+    /* padding-top: 250px; */
   }
+  #stockImg img{
+    height: initial;
+    width: 50vw;
+  }
+
   h3{
    
     height:60px;
