@@ -63,6 +63,7 @@
     background-color: gray;
     width:97vw;
     height: 30px;
+    display:none;
   }
   #logo{
     font-size:24px;
@@ -76,7 +77,7 @@
     display:none;
     background-color:slategray;
     width: 97vw;
-    height:97vw;
+    height:97%;
   }
   .results{
     display:flex;
