@@ -11,6 +11,7 @@ let resultsDivRef = document.getElementsByClassName('results');
 let searchDivRef = document.getElementById('search');
 let footer1Ref = document.getElementById('foot1');
 let footer2Ref = document.getElementById('foot2');
+let textRef = document.querySelector("p");
 console.log(footer2Ref)
 //footer
 footer2Ref.style.display = 'none';
@@ -117,4 +118,7 @@ for ( i =0; i < programNamesArray.length; i ++){
   rightDiv.appendChild(infoPart);
   bigDiv.appendChild(rightDiv);
   searchDivRef.appendChild(bigDiv);
+
+  //css in java
+  textRef.style.border = '3px solid blue';
 }
