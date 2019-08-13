@@ -58,11 +58,13 @@
   }
   #aboutUsBox p{
     font-size:18px;
+  
   }
   footer{
     background-color: gray;
     width:97vw;
     height: 30px;
+    position: relative;
   }
   #logo{
     font-size:24px;

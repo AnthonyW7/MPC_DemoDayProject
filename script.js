@@ -9,6 +9,12 @@ let searchBarRef = document.getElementById("searchBar");
 let bodyRef = document.querySelector('body');
 let resultsDivRef = document.getElementsByClassName('results');
 let searchDivRef = document.getElementById('search');
+let footer1Ref = document.getElementById('foot1');
+let footer2Ref = document.getElementById('foot2');
+console.log(footer2Ref)
+//footer
+footer2Ref.style.display = 'none';
+footer1Ref.style.display = 'block';
 console.log("help");
 
 //assigning variables for the arrays where we access the information from
@@ -68,6 +74,8 @@ topBarSearch.onclick = function(event){
   event.preventDefault();
   homeRef.style.display = "none";
   searchRef.style.display = "block";
+  footer1Ref.style.display = 'block';
+
 }
 
 //when the top home div is pressed it switches to the home div
@@ -75,22 +83,37 @@ topBarHome.onclick = function(event){
   event.preventDefault();
   homeRef.style.display = "block";
   searchRef.style.display = "none";
+  footer1Ref.style.display = 'block'
 }
 
 for ( i =0; i < programNamesArray.length; i ++){
+  //there exists a div im going to put everything into later
+  //big div is the box im working with for each program
   let bigDiv = document.createElement('div');
   bigDiv.style.display = 'flex';
+  //image adding to big div (left side)
   let img = document.createElement('img');
   img.src = 'images/' + programPicsArray[i];
   img.style.height = ('100px');
   bigDiv.appendChild(img);
+  //im adding a right side div and setting it as column
   let rightDiv = document.createElement('div');
   rightDiv.style.flexDirection = 'column';
+  //im adding the top title to the right side div
   let titlePart = document.createElement('h3');
-  titlePart.innerHTML = programNamesArray[i]
-  rightDiv.appendChild(titlePart)
+  titlePart.innerHTML = programNamesArray[i];
+  titlePart.style.display = 'inline';
+  //considering linking using an a tag
+  let titleLinkPart = document.createElement('a');
+  titleLinkPart.href = programLinksArray[i];
+  titleLinkPart.appendChild(titlePart);
+  //appending the title to right div
+  
+  rightDiv.appendChild(titleLinkPart)
+  //information part is being added to the right side
   let infoPart = document.createElement('p');
   infoPart.innerHTML = programDescriptionsArray[i];
+  //appending the boys
   rightDiv.appendChild(infoPart);
   bigDiv.appendChild(rightDiv);
   searchDivRef.appendChild(bigDiv);
