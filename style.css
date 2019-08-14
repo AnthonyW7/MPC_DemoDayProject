@@ -41,9 +41,12 @@
     position: absolute;
     top: 50%;
     left: 50%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+    width: 700px;
     transform: translate(-50%, -50%);
     font-size: 48px;
-    color: #c60021;
+    color: rgb(198, 0, 33,0.6);
     pointer-events: none;
   }
   #home{
@@ -68,22 +71,23 @@
   #aboutUsBox{
     display:flex;
     justify-content:center;
+    
   }
   #aboutUsText{
     display:flex;
     background-color: #F6F6F8;
     align-items: center;
     flex-direction: column;
-    height: 450px;
+    height: 650px;
     width: 75vw;
+    border:none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     /* box-shadow: 10px 10px 5px grey; */
   }
   
   #groupPic{
-    border: 3px solid black;
-    width:350px;
-    height: 150px;
+    width:250px;
+    height: 250px;
   }
   #aboutUsBox p{
     font-size:18px;
@@ -132,7 +136,7 @@
   .campDescription{
     display:flex;
     border:3px solid rgb(0,0,0,0.7);
-    height:150px;
+    height:175px;
     width:75vw;
     flex-direction: column;
     padding-left: 15px;
@@ -154,26 +158,30 @@
     width: 150px;
     
   }
- 
 
   #stockImg{
     display: flex;
     justify-content: center;
-    /* height: 350px;
-    width: 100vw; */
+    height: 365px;
+    width: 97vw;
     background-color: #E3E3E3;
-    border: 3px solid rgb(198, 0, 33, 0.5);
+    /* border: 3px solid rgb(198, 0, 33, 0.5); */
     /* padding-top: 250px; */
   }
   #stockImg img{
-    height: initial;
-    width: 50vw;
+    height: 365px;
+    width: 97vw;
   }
 
-  h3{
-   
-    height:60px;
-    width:100px;
+  a{
+    /* height:60px;*/
+    margin-top:15px;
+    text-align: center;
+    width:100px; 
+    text-decoration:none;
+    color:rgb(198, 0, 33, 0.6);
+    font-weight:bold;
+    border: 2px solid rgb(198, 0, 33, 0.6);
   }
   #tag{
     display:flex;
@@ -199,3 +207,12 @@
   color:#fff
 }
 
+#groupPic img{
+  /* padding-left: 45px; */
+  width:250px;
+  height:250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+p{
+  border:none;
+}

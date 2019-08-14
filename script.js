@@ -132,7 +132,7 @@ for ( i =0; i < programNamesArray.length; i ++){
   searchDivRef.appendChild(bigDiv);
 
   //css in java
-  textRef.style.border = '3px solid blue';
+ 
 }
 
 //code for the search bar
