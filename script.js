@@ -130,10 +130,4 @@ for ( i =0; i < programNamesArray.length; i ++){
 }
 
 //JavaScript Styling
-stockDiv.onmouseover = function(){
-    stockImg.style[-webkit-filter] = "blur(5px)"
-    stockImg.style.filter = "blur(5px)";
-}
-// stockImg.onmouseout = function(){
-//   searchButton.style.FontSize = "16px"
-// }
+
