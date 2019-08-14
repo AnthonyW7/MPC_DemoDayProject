@@ -32,7 +32,7 @@
     width: 97vw;
     opacity: 0.6;
   }
-  #stockImg img:hover {
+  #stockImg img:hover{
    -webkit-filter: blur(4px); /* Chrome, Safari, Opera */
     filter: blur(4px);
     transition: 0.2s;
@@ -44,6 +44,7 @@
     transform: translate(-50%, -50%);
     font-size: 48px;
     color: #c60021;
+    pointer-events: none;
   }
   #home{
     padding-left: 500px;
@@ -197,6 +198,4 @@
 .homeButton:hover,.searchSwitch:hover{
   color:#fff
 }
-.results img{
-  
-}
+
