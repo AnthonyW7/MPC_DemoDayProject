@@ -135,5 +135,12 @@ for ( i =0; i < programNamesArray.length; i ++){
   textRef.style.border = '3px solid blue';
 }
 
-//JavaScript Styling
+//code for the search bar
+searchBarRef.onchange = function(shift){
+  shift.preventDefault();
+  let userSearch = searchBarRef.value;
+  for(let i=0; i < programNamesArray.length;i++){
+    if(userSearch.match(/programNamesArray[i]+/i/))
+  }
+}
 
