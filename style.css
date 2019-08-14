@@ -179,7 +179,7 @@
     /* height:60px;*/
     margin-top:15px;
     text-align: center;
-    width:100px; 
+    width:110px; 
     text-decoration:none;
     color:rgb(198, 0, 33, 0.6);
     font-weight:bold;
@@ -195,9 +195,11 @@
 
 .btn{
   border: 1px solid #c60021;
+  border-radius: 10%;
   background:none;
   color:#c60021;
   /* font-family:"montserrat"; */
+  
   cursor:pointer;
   transition: 0.8s;
   font-size:20px;
@@ -207,6 +209,7 @@
 
 .homeButton:hover,.searchSwitch:hover{
   color:#fff
+ 
 }
 
 #groupPic img{
