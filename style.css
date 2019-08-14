@@ -13,7 +13,9 @@
     padding-top: 15px;
     background-color: #E3E3E3;
     opacity: 0.5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
+   
     /* padding-left:-30px; */
   }
   #logo{
@@ -199,7 +201,7 @@
   background:none;
   color:#c60021;
   /* font-family:"montserrat"; */
-  
+ 
   cursor:pointer;
   transition: 0.8s;
   font-size:20px;
