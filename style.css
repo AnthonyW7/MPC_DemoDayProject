@@ -32,6 +32,9 @@
     width: 97vw;
     opacity: 0.6;
   }
+  #missionState{
+    text-align:center;
+  }
   #stockImg img:hover{
    -webkit-filter: blur(4px); /* Chrome, Safari, Opera */
     filter: blur(4px);
@@ -135,7 +138,7 @@
   .campDescription{
     display:flex;
     border:3px solid rgb(0,0,0,0.7);
-    height:175px;
+    height:180px;
     width:75vw;
     flex-direction: column;
     padding-left: 15px;
