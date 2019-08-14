@@ -85,16 +85,9 @@
     /* box-shadow: 10px 10px 5px grey; */
   }
   
-<<<<<<< HEAD
-  #groupPic {
-    border: 3px solid black;
-    width:350px;
-    height: 150px;
-=======
   #groupPic{
     width:250px;
     height: 250px;
->>>>>>> a500d4af46c5991ca071c4baedb85d4ec5011f7e
   }
   #aboutUsBox p {
     font-size:18px;
@@ -124,22 +117,13 @@
 
   
   /*search box styles*/
-<<<<<<< HEAD
-  .results {
-=======
   /* The overall */
   .results{
->>>>>>> e0a3b86ddc98e314aefd902d9bb729e690eeee01
     display:flex;
     flex-direction: row;
     padding-left: 50px;
   }
-<<<<<<< HEAD
-  #campLogo {
-=======
-  /* The picture */
-  .campLogo{
->>>>>>> e0a3b86ddc98e314aefd902d9bb729e690eeee01
+  .campLogo {
     display:flex;
     border: 3px solid black;
     height:150px;
@@ -147,12 +131,8 @@
     margin-right: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
-<<<<<<< HEAD
-  #campDescription {
-=======
   /* description */
   .campDescription{
->>>>>>> e0a3b86ddc98e314aefd902d9bb729e690eeee01
     display:flex;
     border:3px solid rgb(0,0,0,0.7);
     height:175px;
@@ -187,17 +167,6 @@
     /* border: 3px solid rgb(198, 0, 33, 0.5); */
     /* padding-top: 250px; */
   }
-<<<<<<< HEAD
-  #stockImg img {
-    height: initial;
-    width: 50vw;
-  }
-
-  h3 {
-   
-    height:60px;
-    width:100px;
-=======
   #stockImg img{
     height: 365px;
     width: 97vw;
@@ -212,7 +181,6 @@
     color:rgb(198, 0, 33, 0.6);
     font-weight:bold;
     border: 2px solid rgb(198, 0, 33, 0.6);
->>>>>>> a500d4af46c5991ca071c4baedb85d4ec5011f7e
   }
   #tag {
     display:flex;
