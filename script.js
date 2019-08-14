@@ -8,6 +8,7 @@ let topBarHome = document.getElementById("home");
 
 let topBarSearch = document.getElementById("searchButton");
 let searchBarRef = document.getElementById("searchBar");
+let searchInputRef = document.getElementById("searchInput");
 
 let bodyRef = document.querySelector('body');
 let resultsDivRef = document.getElementsByClassName('results');
@@ -92,8 +93,8 @@ topBarHome.onclick = function(event){
   searchRef.style.display = "none";
   footer1Ref.style.display = 'block'
 }
-
-for ( i =0; i < programNamesArray.length; i ++){
+let programDivs = [];
+for (i = 0; i < programNamesArray.length; i++){
   //there exists a div im going to put everything into later
   //big div is the box im working with for each program
   //big div changes background
@@ -110,6 +111,7 @@ for ( i =0; i < programNamesArray.length; i ++){
 
   //im adding a right side div and setting it as column
   let rightDiv = document.createElement('div');
+  programDivs.push(bigDiv);
   rightDiv.style.flexDirection = 'column';
   //im adding the top title to the right side div
   let titlePart = document.createElement('h3');
@@ -136,11 +138,16 @@ for ( i =0; i < programNamesArray.length; i ++){
 }
 
 //code for the search bar
-searchBarRef.onchange = function(shift){
-  shift.preventDefault();
-  let userSearch = searchBarRef.value;
+searchBarRef.onsubmit = function(event){
+  event.preventDefault();
+  let userSearch = new RegExp(searchInputRef.value,"i");
+  //console.log(userSearch);
   for(let i=0; i < programNamesArray.length;i++){
-    if(userSearch.match(/programNamesArray[i]+/i)){
+    let testerName = programNamesArray[i];
+    if(testerName.search(userSearch)>=0){
+      programDivs[i].style.display = "flex";
+    }else{
+      programDivs[i].style.display = "none";
+    }
   }
-}
 }
