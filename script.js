@@ -140,7 +140,7 @@ searchBarRef.onchange = function(shift){
   shift.preventDefault();
   let userSearch = searchBarRef.value;
   for(let i=0; i < programNamesArray.length;i++){
-    if(userSearch.match(/programNamesArray[i]+/i/))
+    if(userSearch.match(/programNamesArray[i]+/i)){
   }
 }
-
+}
