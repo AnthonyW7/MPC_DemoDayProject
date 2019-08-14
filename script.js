@@ -140,7 +140,7 @@ for (i = 0; i < programNamesArray.length; i++){
 //code for the search bar
 searchBarRef.onsubmit = function(event){
   event.preventDefault();
-  let userSearch = new RegExp(searchInputRef.value,"i");
+  let userSearch = new RegExp(searchInputRef.value.trim(),"i");
   //console.log(userSearch);
   for(let i=0; i < programNamesArray.length;i++){
     let testerName = programNamesArray[i];
