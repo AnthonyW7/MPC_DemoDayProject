@@ -80,19 +80,23 @@
     width: 97vw;
     height:97%;
   }
+
   /*search box styles*/
+  /* The overall */
   .results{
     display:flex;
     flex-direction: row;
     padding-left: 50px;
   }
-  #campLogo{
+  /* The picture */
+  .campLogo{
     display:flex;
     border: 3px solid black;
     height:150px;
     width:150px;
   }
-  #campDescription{
+  /* description */
+  .campDescription{
     display:flex;
     border:3px solid rgb(0,0,0,0.7);
     height:150px;

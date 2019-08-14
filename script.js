@@ -90,13 +90,18 @@ topBarHome.onclick = function(event){
 for ( i =0; i < programNamesArray.length; i ++){
   //there exists a div im going to put everything into later
   //big div is the box im working with for each program
+  //big div changes background
   let bigDiv = document.createElement('div');
+  bigDiv.classList.add("results");
   bigDiv.style.display = 'flex';
+
   //image adding to big div (left side)
   let img = document.createElement('img');
   img.src = 'images/' + programPicsArray[i];
   img.style.height = ('100px');
+  img.classList.add("campLogo");
   bigDiv.appendChild(img);
+
   //im adding a right side div and setting it as column
   let rightDiv = document.createElement('div');
   rightDiv.style.flexDirection = 'column';
@@ -107,6 +112,7 @@ for ( i =0; i < programNamesArray.length; i ++){
   //considering linking using an a tag
   let titleLinkPart = document.createElement('a');
   titleLinkPart.href = programLinksArray[i];
+  rightDiv.classList.add("campDescription");
   titleLinkPart.appendChild(titlePart);
   //appending the title to right div
   
