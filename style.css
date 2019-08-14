@@ -134,6 +134,7 @@
     width:75vw;
     flex-direction: column;
     padding-left: 15px;
+    margin-bottom: 15px;
   }
   
   #tag{
