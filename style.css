@@ -28,7 +28,6 @@
     /* padding-top: 250px; */
   } 
   #stockImg img{
-    
     height: 350px;
     width: 97vw;
     opacity: 0.6;
@@ -107,7 +106,7 @@
   #search{
     display:none;
     background-color:#E3E3E3;
-    width: 100vw;
+    width: 97vw;
     height:97%;
   }
 
@@ -125,6 +124,7 @@
     border: 3px solid black;
     height:150px;
     width:150px;
+    margin-right: 15px;
   }
   /* description */
   .campDescription{
@@ -148,6 +148,7 @@
   #campLogo img{
     height: 150px;
     width: 150px;
+    
   }
  
 
@@ -156,8 +157,8 @@
     justify-content: center;
     /* height: 350px;
     width: 100vw; */
-    background-color: black;
-    border: 3px solid red;
+    background-color: #E3E3E3;
+    border: 3px solid rgb(198, 0, 33, 0.5);
     /* padding-top: 250px; */
   }
   #stockImg img{
@@ -192,4 +193,7 @@
 
 .homeButton:hover,.searchSwitch:hover{
   color:#fff
+}
+.results img{
+  
 }
