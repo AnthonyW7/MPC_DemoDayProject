@@ -1,17 +1,23 @@
 //getting references
 let presentSearch = document.getElementById("presentSearch");
 let presentHome = document.getElementById("presentHome");
+
 let searchRef = document.getElementById("search");
 let homeRef = document.getElementById("homePage");
 let topBarHome = document.getElementById("home");
+
 let topBarSearch = document.getElementById("searchButton");
 let searchBarRef = document.getElementById("searchBar");
+
 let bodyRef = document.querySelector('body');
 let resultsDivRef = document.getElementsByClassName('results');
 let searchDivRef = document.getElementById('search');
 let footer1Ref = document.getElementById('foot1');
 let footer2Ref = document.getElementById('foot2');
+
 let textRef = document.querySelector("p");
+let stockImg = document.querySelector("stockImg img")
+let stockDiv = document.getElementById("stockImg")
 console.log(footer2Ref)
 //footer
 footer2Ref.style.display = 'none';
@@ -90,13 +96,18 @@ topBarHome.onclick = function(event){
 for ( i =0; i < programNamesArray.length; i ++){
   //there exists a div im going to put everything into later
   //big div is the box im working with for each program
+  //big div changes background
   let bigDiv = document.createElement('div');
+  bigDiv.classList.add("results");
   bigDiv.style.display = 'flex';
+
   //image adding to big div (left side)
   let img = document.createElement('img');
   img.src = 'images/' + programPicsArray[i];
   img.style.height = ('100px');
+  img.classList.add("campLogo");
   bigDiv.appendChild(img);
+
   //im adding a right side div and setting it as column
   let rightDiv = document.createElement('div');
   rightDiv.style.flexDirection = 'column';
@@ -107,6 +118,7 @@ for ( i =0; i < programNamesArray.length; i ++){
   //considering linking using an a tag
   let titleLinkPart = document.createElement('a');
   titleLinkPart.href = programLinksArray[i];
+  rightDiv.classList.add("campDescription");
   titleLinkPart.appendChild(titlePart);
   //appending the title to right div
   
@@ -122,3 +134,6 @@ for ( i =0; i < programNamesArray.length; i ++){
   //css in java
   textRef.style.border = '3px solid blue';
 }
+
+//JavaScript Styling
+
