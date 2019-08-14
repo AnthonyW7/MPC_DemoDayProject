@@ -1,17 +1,23 @@
 //getting references
 let presentSearch = document.getElementById("presentSearch");
 let presentHome = document.getElementById("presentHome");
+
 let searchRef = document.getElementById("search");
 let homeRef = document.getElementById("homePage");
 let topBarHome = document.getElementById("home");
+
 let topBarSearch = document.getElementById("searchButton");
 let searchBarRef = document.getElementById("searchBar");
+
 let bodyRef = document.querySelector('body');
 let resultsDivRef = document.getElementsByClassName('results');
 let searchDivRef = document.getElementById('search');
 let footer1Ref = document.getElementById('foot1');
 let footer2Ref = document.getElementById('foot2');
+
 let textRef = document.querySelector("p");
+let stockImg = document.querySelector("stockImg img")
+let stockDiv = document.getElementById("stockImg")
 console.log(footer2Ref)
 //footer
 footer2Ref.style.display = 'none';
@@ -128,3 +134,12 @@ for ( i =0; i < programNamesArray.length; i ++){
   //css in java
   textRef.style.border = '3px solid blue';
 }
+
+//JavaScript Styling
+stockDiv.onmouseover = function(){
+    stockImg.style[-webkit-filter] = "blur(5px)"
+    stockImg.style.filter = "blur(5px)";
+}
+// stockImg.onmouseout = function(){
+//   searchButton.style.FontSize = "16px"
+// }
